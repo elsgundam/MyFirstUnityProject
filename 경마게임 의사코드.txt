@@ -1,0 +1,38 @@
+class void Horse :
+	Random rand = new Random();
+	int runDistance = 0;	
+	Transform tr;
+    	Vector3 move;	
+	public minSpeed;
+	public maxSpeed;
+	bool isFinished = false ;
+
+	void Start ()
+		tr = transform
+
+	void FixedUpdate()
+		if (!isFinished)
+			tr.transform.position += move * Time.deltaTime 			
+	void Update ()
+		if (!isFinished)
+			int s = rand.Next (minSpeed,maxSpeed+1);
+			move = new Vector3 (s,0,0);
+			isFinished = 결승선 충돌 감지 코드;
+		else 
+			순위기록 오브젝트 완주했음을 알림
+
+순위기록 오브젝트 생성 
+	int i = 0;
+	int numberOfHorse = 5;
+	string[] horseRanking = new string[numberOfHorse] ;
+	void Update ()
+		if (Horse 오브젝트에서 완주 신호를 받으면)
+			horseRanking.i = 완주한 Horse 오브젝트의 이름
+			i++		
+		if (horseRanking의 4번째 방이 null이 아닐경우)
+			horseRanking의 0,1,2,번째 방의 말들을 정해진 위치로 이동
+			카메라 시점 이동	
+plane과 단상 생성.
+horse 5개 생성 
+결승선 생성 == 순위기록 오브젝트 생성.
+
