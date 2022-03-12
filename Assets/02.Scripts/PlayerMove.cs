@@ -22,7 +22,7 @@ public class PlayerMove : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        move = new Vector3 (h,0f,v);
+        move = new Vector3 (h,0,v);
     }
 
 }
