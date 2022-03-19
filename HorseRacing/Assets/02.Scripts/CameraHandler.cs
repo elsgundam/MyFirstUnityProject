@@ -63,6 +63,7 @@ public class CameraHandler : MonoBehaviour
                 mainCamera.enabled = true;
                 subCamera.enabled = false;
             }
+            
         }
         else if (GamePlay.instance.players.Count==0)
         {           
